@@ -1,0 +1,77 @@
+.header {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background: url('../images/header-bg.jpg');
+	&__menu {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.menu {
+	text-align: right;
+	&__items {
+		display: inline-block;
+	}
+	&__link {
+		font: 700 16px Raleway, sans-serif;
+		color: black;
+		text-decoration: none;
+		margin-right: 35px;
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			display: inline-block;
+			height: 3px;
+			width: 0;
+			background-color: #ff6033;
+			left: 0px;
+			top: -12px;
+			opacity: 0;
+			transition: all 0.3s;
+		}
+		&:hover {
+			&::after {
+				opacity: 1;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.intro {
+	padding-top: 210px;
+	padding-bottom: 295px;
+	&__title {
+		font: 900 60px Raleway, sans-serif;
+		margin-bottom: 35px;
+	}
+	&__text {
+		font: 300 17px Raleway, sans-serif;
+		margin-bottom: 70px;
+	}
+	&__button {
+		text-decoration: none;
+		font: 300 17px Raleway, sans-serif;
+		border: 1px solid #fff;
+		background-color: #ff6033;
+		color: #fff;
+		padding: 20px 25px;
+		box-shadow: 0px 4px 1px 3px rgba(0, 0, 0, 0.2);
+		&:hover {
+			background-color: #b02555;
+		}
+	}
+}
+
+.scroll {
+	width: 40px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	font-size: 25px;
+	color: #262626;
+		&:hover {
+			color: #b02555;
+		}
+}

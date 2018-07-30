@@ -1,0 +1,17 @@
+.about-us {
+	background: url('../images/bgsec.jpg');
+	&__title {
+		font: 700 90px Raleway, sans-serif;
+		color: #fff;
+		margin-top: 60px;
+		margin-bottom: 35px;
+	}
+	&__text {
+		font: 300 17px Raleway, sans-serif;
+		color: #fff;
+		margin-bottom: 25px;
+		line-height: 1.5;
+	}
+}
+
+
