@@ -91,18 +91,14 @@
 }
 
 .right-sc {
-		position: relative;
-	&__img {
-		padding-top: 110px;
-		position: absolute;
-		left: 100px;
-	}
+		background: url('../images/tomato.png') no-repeat top center;
+		height: 100%;
+		margin-top: 100px;
 	&__title {
 		font: 700 90px Raleway, sans-serif;
 		color: #fff;
-		display: inline-block;
-		position: absolute;
-		top: 310px;
-		left: 30px;
+		margin-top: 225px;
+		margin-bottom: 240px;
+		margin-left: 10px;
 	}
 }

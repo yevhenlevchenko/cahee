@@ -1,0 +1,41 @@
+.gallery {
+	background: url('../images/bggallery.jpg');
+	&__title{
+		font: 700 90px Raleway, sans-serif;
+		width: 315px;
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	&__text {
+		font: 300 17px Raleway, sans-serif;
+		text-align: center;
+		width: 580px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	img {
+		margin-top: 31px;
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+	&__button {
+		margin: 0 auto;
+		margin-top: 70px;
+		margin-bottom: 130px;
+		width: 200px;
+	}
+
+	&__btn {
+		text-decoration: none;
+		color: #fff;
+		font: 300 20px Raleway, sans-serif;
+		border: 1px solid #5585a2;
+		background-color: #5585a2;
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+		padding: 20px 40px;
+		&:hover {
+			border: 1px solid #ff6033;
+			background-color: #ff6033;
+		}
+	}
+}
