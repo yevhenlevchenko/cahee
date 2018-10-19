@@ -1,10 +1,16 @@
 .footer {
 	background-color: #262626;
+	@media (max-width: 1023px) {
+
+	}
 	p {
 		color: #fff;
 		font: 300 16px Raleway, sans-serif;
 		margin-top: 35px;
 		margin-bottom: 35px;
+		@media (max-width: 1023px) {
+
+		}
 
 		span {
 			color: red;
@@ -15,5 +21,15 @@
 		margin-top: 32px;
 		margin-bottom: 33px;
 		margin-left: 24px;
+		@media (max-width: 1023px) {
+
+		}
+	}
+
+	&__resp {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 }

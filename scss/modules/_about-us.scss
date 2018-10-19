@@ -1,16 +1,35 @@
 .about-us {
 	background: url('../images/bgsec.jpg');
+		@media (max-width: 1023px) {
+			background: #00bfbf;
+		}
+
+	img {
+		@media (max-width: 1023px) {
+			display: none;
+		}
+	}
+
 	&__title {
 		font: 700 90px Raleway, sans-serif;
 		color: #fff;
 		margin-top: 60px;
 		margin-bottom: 35px;
+		@media (max-width: 1023px) {
+			text-align: center;
+		}
 	}
+
 	&__text {
 		font: 300 17px Raleway, sans-serif;
 		color: #fff;
 		margin-bottom: 25px;
 		line-height: 1.5;
+		@media (max-width: 1023px) {
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 23px;
+		}
 	}
 }
 

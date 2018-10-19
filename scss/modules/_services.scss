@@ -1,17 +1,24 @@
 .services {
 	background: url('../images/bg3.jpg');
+	@media (max-width: 1023px) {
+
+		}
 }
 
 .list {
 	display: inline-block;
 	padding-top: 180px;
 	padding-bottom: 150px;
+		@media (max-width: 1023px) {
+			padding: 50px;
+		}
 
 	&__item {
 		border: 1px solid #fff;
 		background-color: #fff;
 		margin-bottom: 20px;
 		box-shadow: 0px 4px 1px 3px rgba(0, 0, 0, 0.2);
+
 		a {
 			font: 700 20px Raleway, sans-serif;
 			display: inline-block;
@@ -94,11 +101,26 @@
 		background: url('../images/tomato.png') no-repeat top center;
 		height: 100%;
 		margin-top: 100px;
+		@media (max-width: 1023px) {
+			background: url('../images/tomato.png') no-repeat center center;
+			position: relative;
+			margin: 0;
+		}
 	&__title {
 		font: 700 90px Raleway, sans-serif;
 		color: #fff;
 		margin-top: 225px;
 		margin-bottom: 240px;
 		margin-left: 10px;
+		@media (max-width: 1023px) {
+			background: url('../images/tomato2.png') no-repeat center center;
+			padding: 30px;
+			font-size: 48px;
+			margin: 0;
+			position: absolute;
+			top: -360px;
+			right: 70px;
+		}
 	}
 }
+

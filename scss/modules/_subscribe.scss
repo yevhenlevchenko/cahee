@@ -3,13 +3,30 @@
 	&__title {
 		font: 700 40px Raleway, sans-serif;
 		margin-top: 145px;
+		@media (max-width: 1023px) {
+			text-align: center;
+			margin-top: 50px;
+		}
 	}
 	&__text {
 		font: 300 17px Raleway, sans-serif;
 		margin-top: 35px;
+		@media (max-width: 1023px) {
+			width: 700px;
+			text-align: center;
+			margin-left: 14%;
+			font-size: 23px;
+		}
 	}
 	&__form {
 		margin-bottom: 160px;
+		@media (max-width: 1023px) {
+			width: 700px;
+			text-align: center;
+			margin-left: 14%;
+			margin-bottom: 50px;
+			font-weight: 500;
+		}
 	}
 	&__input {
 		border: 1px solid #262626;
@@ -18,9 +35,19 @@
 		margin-top: 35px;
 		max-width: 575px;
 		width: 100%;
+		@media (max-width: 1023px) {
+			font-size: 23px;
+		}
 	}
 	&__link-pos {
 		margin-top: 55px;
+		@media (max-width: 1023px) {
+			margin-bottom: 50px;
+			margin-left: 380px;
+		}
+		@media (min-width: 320px) {
+
+		}
 	}
 	&__link {
 		font: 300 17px Raleway, sans-serif;
@@ -33,6 +60,9 @@
 		&:hover {
 			background-color: #6b7e9c;
 			border: 1px solid #6b7e9c;
+		}
+		@media (min-width: 320px) {
+			font-size: 1rem;
 		}
 	}
 }

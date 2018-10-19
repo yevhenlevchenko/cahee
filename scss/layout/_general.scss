@@ -19,6 +19,9 @@ html {
 body, html {
 	min-height: 100%;
 	width: 100%;
+	@media (min-width: 320px) {
+		overflow: auto;
+	}
 }
 
 .clear::after, .clear::before {
